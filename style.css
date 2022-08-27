@@ -1,0 +1,82 @@
+body{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin:0;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #222;
+    background-image: url("images/david-kovalenko-G85VuTpw6jg-unsplash.jpg");
+    background-size: cover;
+}
+.card{
+    background-color: #000000d0;
+    color:white;
+    padding:2em;
+    border-radius: 30px;
+    width:100%;
+    max-width: 420px;
+    margin:1em;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+.search{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.search input.search-bar{
+    border:none;
+    outline: none;
+    padding: .8em;
+    border-radius: 18px;
+    background-color: #201818d0;
+    color:white;
+    font-family: inherit;
+    -webkit-border-radius: 18px;
+    -moz-border-radius: 18px;
+    -ms-border-radius: 18px;
+    -o-border-radius: 18px;
+    font-size: 16px;
+    width: calc(100% - 100px);
+}
+.search button{
+    margin-left:5px;
+    border:none;
+    height:50px;
+    width:50px;
+    border-radius: 50%;
+    background-color: #201818d0;
+    cursor:pointer;
+    color:white;
+    transition: 0.3s ease-in-out;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    -webkit-transition: 0.3s ease-in-out;
+    -moz-transition: 0.3s ease-in-out;
+    -ms-transition: 0.3s ease-in-out;
+    -o-transition: 0.3s ease-in-out;
+}
+.search button:hover{
+    background-color: #382c2cd0;
+}
+.temp{
+    margin:0;
+    margin-bottom: 10px;
+}
+.flex{
+    display: flex;
+    align-items: center;
+}
+.description{
+    margin-left:10px
+}
+
+/* .weather.loading{
+   visibility: hidden;
+   max-height: 20px;
+} */
